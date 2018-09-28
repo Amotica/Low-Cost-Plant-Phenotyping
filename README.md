@@ -1,4 +1,4 @@
-# Image-based-Plant-Phenotyping-using-Reduced-Parameter-CNN.
+# Towards In-Field Live Phenotyping for Low-Cost Plant Phenotyping.
 Segmentation is the core of most plant phenotyping applications. Current state-of-the-art plant phenotyping applications rely on deep Convolutional Neural Networks (CNNs). Phenotyping applications relying on these deep CNNs are often difficult if not impossible to deploy on limited-resource devices.
 This work is a first step to moving plant phenotyping applications in-field and on low-cost devices with limited resources. 
 This work re-architect four baseline deep neural networks (creating what we term "Lite CNN") by reducing their parameters whilst making them deeper to avoid overfitting. 
