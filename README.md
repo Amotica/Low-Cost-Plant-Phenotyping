@@ -25,7 +25,7 @@ Most network parameters can be changed in the parameter file.
 
 All CNN models are contained in the Models folder
 
-Datasets are not included but can be downloaded from:
+# Datasets are not included but can be downloaded from:
 
 Flower Dataset: http://www.robots.ox.ac.uk/~vgg/data/flowers/17/index.html
 
