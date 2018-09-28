@@ -1,7 +1,5 @@
 # Towards In-Field Live Phenotyping for Low-Cost Plant Phenotyping.
-Segmentation is the core of most plant phenotyping applications. Current state-of-the-art plant phenotyping applications rely on deep Convolutional Neural Networks (CNNs). Phenotyping applications relying on these deep CNNs are often difficult if not impossible to deploy on limited-resource devices.
-This work is a first step to moving plant phenotyping applications in-field and on low-cost devices with limited resources. 
-This work re-architect four baseline deep neural networks (creating what we term "Lite CNN") by reducing their parameters whilst making them deeper to avoid overfitting. 
+We explore how to compress existing very deep CNNs for plant traits segmentation. Thus making them easily deployable in-eld and on mobile devices. In particular, we focused on applying these models to the pixel-wise segmentation of plants into multiple classes including the background, a challenging problem in the plant phenotyping community. We combined two approaches (Separable Convolutions and SVD) to reduce model parameters and weight matrices of these very deep CNN-based models. Using our combined method (Separable Convolution and SVD) reduced the weight matrix by up to 95% without aecting pixel-wise accuracy.
 
 <img src="results_multi_classes.png" />
 
