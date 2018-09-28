@@ -1,9 +1,6 @@
 #   ================================
 #   CHANGE THIS FOR EACH EXPERIMENT
 #   ================================
-#home_dir = "/home/pszjka/pixel_wise/"
-#data_dir = "/mnt/beast/db1/pszjka/"
-
 home_dir = ""
 data_dir = ""
 
