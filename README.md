@@ -1,7 +1,7 @@
 # Towards In-Field Live Phenotyping for Low-Cost Plant Phenotyping.
 We explore how to compress existing very deep CNNs for plant traits segmentation. Thus making them easily deployable in-field and on mobile devices. In particular, we focused on applying these models to the pixel-wise segmentation of plants into multiple classes including the background, a challenging problem in the plant phenotyping community. We combined two approaches (Separable Convolutions and SVD) to reduce model parameters and weight matrices of these very deep CNN-based models. Using our combined method (Separable Convolution and SVD) reduced the weight matrix by up to 95% without affecting pixel-wise accuracy.
 
-<img src="results_multi_classes.png" />
+<img src="mobile_results.png" />
 
 # Minimum dependencies required to use these codes:
 Python 3.6.1
